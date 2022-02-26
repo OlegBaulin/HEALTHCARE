@@ -1,0 +1,97 @@
+.quality {
+  padding: 97px 0 78px;
+  background-color: #fbfdfc;
+
+  .container {
+    position: relative;
+  }
+
+  &__header {
+    width: 480px;
+    margin: 0 0 33px 675px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    color: #3e3e3e;
+  }
+
+  &__text {
+    width: 503px;
+    margin: 0 0 12px 669px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #777779;
+  }
+
+  &__list {
+    margin: 0 0 24px 669px;
+    padding-left: 36px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    list-style: none;
+
+    li {
+      position: relative;
+      margin-bottom: 14px;
+
+      &::before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: -37px;
+        width: 20px;
+        height: 20px;
+        background: url('./../images/icons/check-circle.png') center (center / cover) no-repeat;
+      }
+    }
+  }
+
+  &__btn {
+    position: relative;
+    margin: 0 0 0 670px;
+    padding: 10px 42px 10px 19px;
+    width: 200px;
+    height: 50px;
+    background: $blue;
+    border: none; // sass-lint:disable-line border-zero
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #fff;
+
+    &:hover {
+      background: darken($blue, 10%);
+      cursor: pointer;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      top: 13px;
+      left: 158px;
+      background: url('./../images/icons/arrow-right.png');
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: -99px;
+    left: 30px;
+    bottom: 0;
+  }
+}

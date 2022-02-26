@@ -1,0 +1,46 @@
+.appoinment {
+  padding: 231px 0 219px;
+  background: url('./../images/frame.png') center 148px / auto no-repeat;
+  background-color: #fbfdfc;
+
+  .container {
+    position: relative;
+  }
+
+  &__header {
+    width: 400px;
+    margin: 0 0 20px 118px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 47px;
+    color: #fff;
+  }
+
+  &__btn {
+    margin-left: 118px;
+    padding: 18px;
+    width: 205px;
+    height: 52px;
+    border: none; // sass-lint:disable-line border-zero
+    background: #fff;
+    box-shadow: 0 4px 22px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: $blue;
+
+    &:hover {
+      background: darken(#fff, 3%);
+      cursor: pointer;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: -193px;
+    right: 45px;
+  }
+}

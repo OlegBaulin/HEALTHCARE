@@ -1,0 +1,59 @@
+.mobile {
+  padding: 241px 0 271px;
+  background-color: #fbfdfc;
+
+  .container {
+    position: relative;
+  }
+
+  &__header {
+    width: 500px;
+    margin: 0 0 28px 675px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #3d3d3f;
+  }
+
+  &__text {
+    width: 500px;
+    margin: 0 0 44px 675px;
+    padding-left: 2px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    color: #999;
+  }
+
+  .button {
+    width: 307px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 675px;
+
+    &__link {
+      &-gp {
+        display: block;
+        width: 156px;
+        height: 46px;
+        z-index: 1;
+        background: url('./../images/icons/GooglePlay.png') center center / cover no-repeat;
+      }
+
+      &-as {
+        display: block;
+        width: 138px;
+        height: 46px;
+        background: url('./../images/icons/AppStore.png') center center / cover no-repeat;
+      }
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: -192px;
+    left: 0;
+  }
+}

@@ -1,0 +1,247 @@
+.footer {
+  position: relative;
+
+  &__wrapper {
+    display: flex;
+    margin-bottom: 7px;
+  }
+
+  .logo-block {
+    width: 310px;
+    margin-right: 193px;
+
+    &__logo {
+      margin: 32px 5px 0;
+      width: 201px;
+      height: 47px;
+      position: relative;
+      font-family: 'Rubik', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 31.635px;
+      line-height: 47px;
+      color: $blue;
+      letter-spacing: 1px;
+
+      .dot {
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        left: 194px;
+        top: 29px;
+        background: $blue;
+        border-radius: 8px;
+      }
+    }
+
+    &__contact {
+      p {
+        margin-left: 4px;
+        font-family: 'DM Sans', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 25px;
+        color: #646464;
+      }
+    }
+
+    &__social {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 4px;
+      width: 176px;
+      height: 33px;
+    }
+
+    &__link {
+      display: inline-block;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    &__icon-fb {
+      width: 33px;
+      height: 33px;
+      fill: #646464;
+
+      &:hover {
+        fill: #4d77cf;
+      }
+    }
+
+    &__icon-tw {
+      width: 33px;
+      height: 33px;
+      fill: #646464;
+
+      &:hover {
+        fill: #1da1f2;
+      }
+    }
+
+    &__icon-in {
+      width: 32px;
+      height: 32px;
+      fill: #646464;
+
+      &:hover {
+        fill: #da4084;
+      }
+    }
+
+    &__icon-yt {
+      width: 32px;
+      height: 32px;
+      fill: #646464;
+
+      &:hover {
+        fill: #f00;
+      }
+    }
+  }
+
+  .lists-block {
+    display: flex;
+    margin-right: 125px;
+
+    .lists {
+
+      &:first-child {
+        margin-right: 115px;
+      }
+
+      &__header {
+        margin: 43px 0 22px;
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 16px;
+        color: #323232;
+      }
+
+      &__list {
+        list-style: none;
+        padding: 0;
+      }
+
+      &__item {
+        margin-bottom: 20px;
+      }
+
+      &__link {
+        text-decoration: none;
+        font-family: 'Roboto', 'Arial', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #646464;
+      }
+    }
+  }
+
+  .subscribe-block {
+    width: 292px;
+
+    &__header {
+      margin: 43px 0 20px;
+      font-family: 'DM Sans', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 16px;
+      color: #323232;
+    }
+
+    &__text {
+      margin-bottom: 14px;
+      font-family: 'DM Sans', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 180%;
+      color: #646464;
+    }
+
+    &__input {
+      width: 292px;
+      height: 40px;
+      padding: 18px;
+      margin-bottom: 12px;
+      border: 1px solid #e1e2e4;
+      border-radius: 5px;
+      font-family: 'Roboto', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 16px;
+      color: rgba(117, 117, 117, 0.65);
+    }
+
+    &__btn {
+      width: 292px;
+      height: 40px;
+      background: $blue;
+      border: 1.1px solid #e1e2e4;
+      border-radius: 5px;
+      font-family: 'Roboto', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+      color: #fff;
+
+      &:hover {
+        background: darken($blue, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .subfooter {
+    padding: 26px 0 35px;
+    background-color: #eef3f9;
+    border: 1px solid #eaeaea;
+    font-family: 'DM Sans', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 15px;
+    }
+
+    &__copyright {
+      width: 270px;
+    }
+
+    &__info {
+      width: 248px;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    &__link {
+      font-family: 'DM Sans', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 14px;
+      color: #646464;
+      text-decoration: none;
+    }
+  }
+}

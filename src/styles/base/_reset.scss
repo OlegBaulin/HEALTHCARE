@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0 135px;
+}
+
+.title {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+}

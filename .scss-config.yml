@@ -1,0 +1,24 @@
+rules:
+  space-after-bang: 0
+  bem-depth: 1
+  class-name-format:
+    - 1
+    -
+      allow-leading-underscore: true
+      convention: hyphenatedbem
+  no-css-comments: 0
+  declarations-before-nesting: 1
+  brace-style: 
+    - 1
+    - 
+      allow-single-line: false
+  no-important: 0
+  leading-zero: 0
+  property-sort-order: 0
+  pseudo-element: 1
+  space-around-operator: 1
+  no-transition-all: 0
+  variable-for-property: 0
+  no-color-literals: 0
+  mixin-name-format: 0
+  variable-name-format: 0

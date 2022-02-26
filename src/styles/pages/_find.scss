@@ -1,0 +1,135 @@
+.find {
+  padding: 213px 0 193px;
+  background-color: #e8f5fd;
+
+  .container {
+    position: relative;
+  }
+
+  &__header {
+    margin-bottom: 0;
+    width: 600px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #3e3e3e;
+
+    span {
+      color: $blue;
+    }
+  }
+
+  &__text {
+    padding: 17px 0 0 3px;
+    margin-bottom: 47px;
+    width: 480px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: rgba(117, 117, 117, 0.46);
+  }
+
+  &__search {
+    display: flex;
+    padding: 13px 12px;
+    width: 566px;
+    height: 86px;
+    background: #fff;
+    box-shadow: 0 4px 22px rgba(228, 245, 252, 0.3);
+    border-radius: 8px;
+  }
+
+  &__input {
+    margin-right: 20px;
+    padding: 15px 33px;
+    width: 216px;
+    height: 59px;
+    background: rgba(245, 246, 250, 0.52);
+    border: none; // sass-lint:disable-line border-zero
+    border-radius: 8px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #999;
+  }
+
+  &__select {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 15px;
+      height: 17px;
+      top: 16px;
+      left: 29px;
+      background: url('./../images/icons/location.png');
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 19px;
+      height: 19px;
+      top: 18px;
+      left: 156px;
+      background: url('./../images/icons/arrow-down.png');
+    }
+  }
+
+  &__location {
+    width: 201px;
+    height: 59px;
+    padding-left: 52px;
+    margin-right: 35px;
+    background: rgba(245, 246, 250, 0.52);
+    border-radius: 8px;
+    border: none; // sass-lint:disable-line border-zero
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3d3d3f;
+    z-index: 1;
+    appearance: none;
+  }
+
+  &__btn {
+    position: relative;
+    width: 70px;
+    height: 59px;
+    background: $blue;
+    border-radius: 8px;
+    border: none; // sass-lint:disable-line border-zero
+    z-index: 1;
+
+    &:hover {
+      background: darken($blue, 10%);
+      cursor: pointer;
+    }
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 12px;
+      left: 19px;
+      width: 32px;
+      height: 37px;
+      background: url('./../images/icons/search_button.png') center (center / cover) no-repeat;
+    }
+  }
+
+  &__img {
+    position: absolute;
+    right: 0;
+    bottom: -219px;
+  }
+}

@@ -1,0 +1,221 @@
+extends ../templates/layout/healthcareLayout
+
+block variables
+    - let title = 'HEALTHCARE'
+
+block main
+    section.find
+        .container
+            .find__wrapper
+                h2.find__header.title  Find And Search Your 
+                    span Suitable Doctor&#8217;s
+                p.find__text Join us and take care of yourself and your family with health services that will make you feel confident and safe in your daily life.
+                form.find__search
+                    input.find__input(type='text' placeholder='Find your doctor')
+                    .find__select
+                        select.find__location
+                            option New York, USA
+                            option New York, USA
+                            option New York, USA
+                    button.find__btn(type='button')
+                img.find__img(src='./images/doctor.png' alt='doctor')
+    section.solution
+        .container
+            h2.solution__header.title 3 Easy Steps and Get Your Solution
+            .solution__wrapper
+                .solution__item
+                    .solution__round.solution__round-find
+                        img(src='./images/icons/find.png' class='solution__icon' alt='magnifier')
+                    .solution__descr
+                        .solution__subtitle Find best doctor&#8217;s
+                        .solution__text Find your doctor easily with a minimum of effort. We've kept everything organised for you.
+                .solution__item
+                    .solution__round.solution__round-calendar
+                        img(src='./images/icons/appointment.png' class='solution__icon' alt='calendar')
+                    .solution__descr
+                        .solution__subtitle Get Appointment
+                        .solution__text Ask for an appointment of the doctor quickly with almost a single click. We take care of the rest.
+                .solution__item
+                    .solution__round.solution__round-stetoscope
+                        img(src='./images/icons/consultations.png' class='solution__icon' alt='stethoscope')
+                    .solution__descr
+                        .solution__subtitle Happy Consultations
+                        .solution__text Do consultations and  take the service based on your appointment. Get back to good health
+
+    section.quality
+        .container 
+            h2.quality__header.title Best quality service with our experience doctors
+            .quality__text With our top doctors, we are able to provide best medical services above average We have highly experienced doctors, so don't worry They are also very talented in their fields
+            ul.quality__list
+                li Search your specialist &amp; Online consultations anywhere
+                li Consultation our top specialists
+                li Doctors are available 24/7
+            button.quality__btn(type='button') Explore specialists
+            img.quality__img(src='./images/quality-doctor.png' alt='doctor')
+    
+    section.service
+        .container
+            h2.service__header.title Our Service
+            .service__subheader Our doctors have high qualified skills and are guaranteed to help you recover from your disease.
+            .service__slider
+                .service__item
+                    img.service__icon(src='./images/icons/cardiology.png' alt='cardiology')
+                    .service__title Cardiology
+                    .service__text Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.
+                .service__item
+                    img.service__icon(src='./images/icons/pulmonology.png' alt='pulmonology')
+                    .service__title Pulmonology
+                    .service__text Our Pulmonologist are skilled at  diagnosing treating diseases of the Pulmonology system.
+                .service__item
+                    img.service__icon(src='./images/icons/medicine.png' alt='medicine')
+                    .service__title Medicine
+                    .service__text Our medcine doctor are skilled at  diagnosing treating diseases of the  latest medicne system.
+                .service__item
+                    img.service__icon(src='./images/icons/cardiology.png' alt='cardiology')
+                    .service__title Cardiology
+                    .service__text Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.
+                .service__item
+                    img.service__icon(src='./images/icons/pulmonology.png' alt='pulmonology')
+                    .service__title Pulmonology
+                    .service__text Our Pulmonologist are skilled at  diagnosing treating diseases of the Pulmonology system.
+                .service__item
+                    img.service__icon(src='./images/icons/medicine.png' alt='medicine')
+                    .service__title Medicine
+                    .service__text Our medcine doctor are skilled at  diagnosing treating diseases of the  latest medicne system.
+                .service__item
+                    img.service__icon(src='./images/icons/cardiology.png' alt='cardiology')
+                    .service__title Cardiology
+                    .service__text Our cardiologists are skilled at  the diagnosing and treating diseases of the cardiovascular system.
+                .service__item
+                    img.service__icon(src='./images/icons/pulmonology.png' alt='pulmonology')
+                    .service__title Pulmonology
+                    .service__text Our Pulmonologist are skilled at  diagnosing treating diseases of the Pulmonology system.
+
+    section.online
+        .container
+            h2.online__header.title Meet Our Certified Online Doctors
+            .online__subheader Our online doctors have an average of 15 years experience and a 98% satisfaction rating, they really set us apart!
+            .online__wrapper
+                .online__item
+                    img.online__photo(src='./images/doctor1.png' alt='doctor')
+                    .online__title Dr Amanda Linda 
+                    .online__text Dentist Specilist
+                    .online__social
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-fb
+                                use(xlink:href='./images/icons/sprite.svg#facebook')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-tw
+                                use(xlink:href='./images/icons/sprite.svg#twitter')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-li
+                                use(xlink:href='./images/icons/sprite.svg#linkedin')
+                .online__item
+                    img.online__photo(src='./images/doctor2.png' alt='doctor')
+                    .online__title Dr. Alisa Rahman
+                    .online__text Carddiologist Specilist
+                    .online__social
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-fb
+                                use(xlink:href='./images/icons/sprite.svg#facebook')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-tw
+                                use(xlink:href='./images/icons/sprite.svg#twitter')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-li
+                                use(xlink:href='./images/icons/sprite.svg#linkedin')
+                .online__item
+                    img.online__photo(src='./images/doctor3.png' alt='doctor')
+                    .online__title Dr. Anthony Fauci
+                    .online__text Neurology Specilist
+                    .online__social
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-fb
+                                use(xlink:href='./images/icons/sprite.svg#facebook')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-tw
+                                use(xlink:href='./images/icons/sprite.svg#twitter')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-li
+                                use(xlink:href='./images/icons/sprite.svg#linkedin')
+                .online__item
+                    img.online__photo(src='./images/doctor4.png' alt='doctor')
+                    .online__title Dr. Khalid Abbed
+                    .online__text Cancer Specilist
+                    .online__social
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-fb
+                                use(xlink:href='./images/icons/sprite.svg#facebook')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-tw
+                                use(xlink:href='./images/icons/sprite.svg#twitter')
+                        a.online__link(href='#' target="_blank")
+                            svg.online__icon-li
+                                use(xlink:href='./images/icons/sprite.svg#linkedin')
+            button.online__btn(type='button') Explore All Doctors
+    
+    section.mobile
+        .container 
+            h2.mobile__header.title Mobile apps are available Get HealthCare for free!
+            .mobile__text Get on-demand access to a doctor on your phone with the free HealthCare mobile app. Download and register on our app for free and feel safe for all your family
+            .button
+                a.button__link-gp(href="#" target="_blank")
+                a.button__link-as(href="#" target="_blank")
+            img.mobile__img(src='./images/mobile.png' alt='mobile')
+
+    section.reviews
+        .container
+            h2.reviews__header.title Look our Clients have to say about us
+            .reviews__slider
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here1.jpg' alt='avatar')
+                    .reviews__author Alan Zara dilan
+                    .reviews__location New York, America, USA
+                    .reviews__text Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here2.jpg' alt='avatar')
+                    .reviews__author Alex Maxwell
+                    .reviews__location San Francisco, USA
+                    .reviews__text I visited my PCP for abdominal pain. My doctor told me that I need to see Gastroenterologist. Earlier I used to call multiple offices to schedule an appointment that suites my time.
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here3.jpg' alt='avatar')
+                    .reviews__author Dr. Tasnim zara
+                    .reviews__location Los Angeles, USA
+                    .reviews__text HealthCare is enlightens my superpower each and every time...! I find DocTime a brand-able telemedicine platform with virtual waiting room, video consultation, e&ndash;prescription, beautifully planned user interface. Thank you :)
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here1.jpg' alt='avatar')
+                    .reviews__author Alan Zara dilan
+                    .reviews__location New York, America, USA
+                    .reviews__text Telehealth is fueled by digital technologies and DocTime telemedicine app has brought a great revolution in medical services specially an overpopulated country where virtual chamber can create at anywhere thoughout country
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here2.jpg' alt='avatar')
+                    .reviews__author Alex Maxwell
+                    .reviews__location San Francisco, USA
+                    .reviews__text I visited my PCP for abdominal pain. My doctor told me that I need to see Gastroenterologist. Earlier I used to call multiple offices to schedule an appointment that suites my time.
+                .reviews__item
+                    svg.reviews__quote
+                        use(xlink:href='./images/icons/sprite.svg#quote')
+                    img.reviews__img(src='./images/image_here3.jpg' alt='avatar')
+                    .reviews__author Dr. Tasnim zara
+                    .reviews__location Los Angeles, USA
+                    .reviews__text HealthCare is enlightens my superpower each and every time...! I find DocTime a brand-able telemedicine platform with virtual waiting room, video consultation, e-prescription, beautifully planned user interface. Thank you :)
+
+    section.appoinment
+        .container
+            h2.appoinment__header.title It&#8217;s Time Change Your Life Today
+            button.appoinment__btn(type='button') Book an Appoinment 
+            img.appoinment__img(src='./images/doctor_wearing.png' alt='doctor')
+
+block scripts
+    script(src='./js/vendors.min.js')
+    script(src='./js/main.min.js')

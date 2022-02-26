@@ -1,0 +1,80 @@
+.header {
+  padding: 14px 0 0;
+  background: #e8f5fd;
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__logo {
+    margin-top: 10px;
+    width: 201px;
+    height: 47px;
+    position: relative;
+    font-family: 'Rubik' , 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31.635px;
+    line-height: 47px;
+    color: $blue;
+    letter-spacing: 1px;
+
+    .dot {
+      position: absolute;
+      width: 7px;
+      height: 7px;
+      left: 194px;
+      top: 29px;
+      background: $blue;
+      border-radius: 8px;
+    }
+  }
+
+  .menu {
+    padding-left: 371px;
+    margin-right: 44px;
+    width: 780px;
+
+    &__list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    &__link {
+      font-family: 'Poppins', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: #c5cace;
+      text-decoration: none;
+
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+
+  .btn-block {
+    &__btn {
+      margin: 1px 0 0 2px;
+      padding: 14px 28.5px 11px;
+      border: none; // sass-lint:disable-line border-zero
+      background: $blue;
+      border-radius: 5px;
+      font-family: 'Poppins', 'Arial', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.997px;
+      line-height: 22px;
+      color: #fff;
+
+      &:hover {
+        background: darken($blue, 10%);
+        cursor: pointer;
+      }
+    }
+  }
+}

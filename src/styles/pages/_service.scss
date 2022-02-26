@@ -1,0 +1,103 @@
+.service {
+  padding: 88px 0 85px;
+  background-color: #fbfdfc;
+
+  &__header {
+    margin-bottom: 24px;
+    line-height: 49px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #3d3d3f;
+  }
+
+  &__subheader {
+    margin: 0 auto;
+    margin-bottom: 81px;
+    width: 483px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #999;
+  }
+
+  .slick-dots {
+
+    position: relative;
+    top: 90px;
+
+    button {
+      &::before {
+        content: '';
+        width: 18px;
+        height: 18px;
+        background: #dbe8ee;
+        border-radius: 50%;
+      }
+    }
+
+    li {
+      margin: 0 7px;
+
+      &.slick-active {
+        width: 60px;
+        height: 15px;
+        border-radius: 6px;
+
+        button {
+          &::before {
+            content: '';
+            width: 60px;
+            height: 15px;
+            background: $blue;
+            border-radius: 6px;
+          }
+        }
+      }
+    }
+  }
+
+  &__item {
+    width: 349px;
+    height: 316px;
+    padding: 61px 65px 0;
+    margin-right: 65px;
+    border-radius: 10px;
+    background-color: #f7f8fa;
+
+    &:hover {
+      background-color: #fff;
+      border-bottom: 18px solid #a0d1fc;
+    }
+  }
+
+  &__icon {
+    display: block;
+    margin: 0 auto;
+    height: 77px;
+    margin-bottom: 15px;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  &__text {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #999;
+  }
+}
